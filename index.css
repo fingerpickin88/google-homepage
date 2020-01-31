@@ -1,0 +1,90 @@
+
+body {
+    background-color: white;
+}
+
+.container {
+    width: 600px;
+    position: absolute;
+    top: 35%;
+    left: 35%;
+}
+
+.search-bar {
+    width: 509px;
+    height: 30px;
+    font-size: 16px;
+    border-radius: 2em;
+    border-style: 1px solid grey;
+    margin-bottom: 10px;
+}
+
+.button {
+    border: none;
+    height: 40px;
+    width: auto;
+    padding: 0 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: grey;
+}
+
+#search {
+    margin: 0 2em 0 8em;
+}
+
+#logo {
+    margin-left: 7em;
+}
+
+#header a {
+    text-decoration: none;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.left-nav {
+    float: left;
+    margin: 15px;
+}
+
+.right-nav {
+    float: right;
+    margin: 15px;
+}
+
+.right-nav a {
+    
+    padding: 2em 1em 0 1em;
+}
+
+.left-nav a {
+    padding: 2em 1em 0 0;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #f2f2f2;
+    width: 100%;
+    margin: 0;
+}
+
+.left-footer a {
+    float: left;
+    text-decoration: none;
+    color: grey;
+    font-family: 13px Arial, Helvetica, sans-serif;
+    top: 10px;
+    margin: 14px 25px 10px 25px
+}
+
+.right-footer a {
+    float: right;
+    text-decoration: none;
+    color: grey;
+    font-family: 13px Arial, Helvetica, sans-serif;
+    margin: 14px 25px 10px 25px
+}
